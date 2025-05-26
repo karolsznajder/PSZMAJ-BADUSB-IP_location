@@ -15,8 +15,8 @@ location = data.get('loc', 'Unknown')
 
 time.sleep(1)
 
-sender = "twoj_email@gmail.com"
-recipient = "odbiorca_email@gmail.com"
+sender = "karolsznajder660@gmail.com"
+recipient = "karolsznajder660@gmail.com"
 
 message = EmailMessage()
 message['From'] = sender
@@ -33,8 +33,8 @@ info = (
 
 message.set_content(info)
 
-login = "twoj_email@gmail.com"
-password = "twoje_haslo_app"
+login = "karolsznajder660@gmail.com"
+password = "rcwrglkdjbgbsdgs"
 
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as mail_server:
     mail_server.set_debuglevel(1)
